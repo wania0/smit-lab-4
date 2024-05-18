@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form one</title>
+    <style type="text/css">
+      body {
+        background: rgb(106, 144, 216);
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <fieldset style="border: 5px solid black">
+      <legend>
+        <strong>Personal Details</strong>
+      </legend>
+      <br />
+      <label>
+        <b> Salutation</b><br />
+        <select>
+          <option value="none">--None--</option>
+          <option value="sir">--Dear sir--</option>
+          <option value="madam">--Madam--</option>
+          <option value="parents">--parents--</option></select
+        ><br /><br />
+        <b>First name:</b> <input type="text" name="firstname" /><br /><br />
+        <b>Last name:</b> <input type="text" name="lastname" /><br /><br />
+        <b>Gender:</b> <input type="radio" name="gender" /><b>Male</b>
+        <input type="radio" name="gender" /><b>Female</b><br /><br />
+        <b>Email:</b> <input type="email" name="email" /><br /><br />
+        <b>Date of Birth:</b><input type="date" name="birthdate" /><br /><br />
+        <b> Address:</b><br /><br />
+        <textarea name="address" cols="40" rows="4"></textarea><br /><br />
+        <input type="submit" name="Submit" value="Submit" />
+      </label>
+    </fieldset>
+  </body>
+</html>
